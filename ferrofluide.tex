@@ -1,0 +1,62 @@
+
+\documentclass[a4paper]{TUBAFprotokoll}	
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{chemmacros}	
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{upgreek}
+\usepackage{chemfig}
+\usepackage{ghsystem}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{booktabs}
+
+\usepackage{hyperref}
+\chemsetup{modules={all}}
+
+
+\hbadness=10000
+\vbadness=10000
+\sloppy
+
+\TUBAFFakultaet{Fakultät für Werkstoffwissenschaften}
+\TUBAFInstitut{Institut für Elektronik- und Sensormaterialien}
+\TUBAFPraktikum[HNSt]{Herstellung von Nanostrukturen}
+\TUBAFVersuch[1]{Ferrofluid}
+\TUBAFPraktikant{Gruppe C: Meike Bösel, Niclas Krause}
+\TUBAFStudiengang[NT]{Diplom Nanotechnologie}
+\TUBAFSemester{3.}
+\TUBAFModul[HNST]{Herstellung von Nanostrukturen
+	\TUBAFPraktikumstag{12.12.2021}
+	\TUBAFBetreuer{Reichel, Oestreich}
+	
+	\begin{document}
+		\maketitle
+		\tableofcontents
+		\newpage
+		\section{Aufgabenstellung}
+		Im Praktikum sind superparamagnetische Magnetit-Nanopartikel aus Eisenchlorid und wässriger Ammoniaklösung herzustellen. Die Nanopartikel haben einen Durchmesser von ca. 10 Nanometern und bilden eine stabile kolloidale Suspension in der Trägerflüssigkeit, ein sogenanntes Ferrofluid. Um die Agglomeration der Partikel zu verhindern, werden sie oberflächenfunktionalisiert. Der Nachweis der Nanoskaligkeit der Partikel erfolgt durch den Rosensweig-Effekt: Beim Anlegen eines äußeren Magnetfeldes richten sich die Nanopartikel entlang der Feldlinien des Magnetfeldes aus, sie lassen sich aber nicht dauerhaft magnetisieren.
+		
+		\section{Grundlagen}
+		\subsection{Ferrofluide}
+		Ein Ferrofluid ist eine stabile kolloidale Suspension bestehend aus magnetischen Nanopartikeln mit einem Durchmesser von 10 Nanometern in einer wässrigen oder öligen Phase. Die Nanopartikel, die Ferrofluide beinhalten müssen, sind Ferro-, Ferri- oder Antiferromagnetika auf Basis von Ferriten oder Granaten. Diese Nanopartikel können dann durch ein externes Magnetfeld magnetisiert und ausgerichtet werden. Bei Überschreitung der kritischen Feldstärke entstehen charakteristische Igelstrukturen, die als Rosensweig-Effekt bezeichnet werden. Dieser Effekt tritt auf als Resultat des Gleichgewichts aus Oberflächenspannung, Gravitation und der magnetischen Kraft. Dabei versucht das Ferrofluid die Energie zu minimieren, was durch Ausrichtung der Dipole im Material erreicht wird. Dieser Effekt ist nur bei Ferrofluiden zu sehen, da bei magnetheologischen Lösungen bei hinzuführen eines externen Magnetfeldes eine Verfestigung entsteht. 
+		
+		\subsection{Eigenschaften der Ferrofluide}
+		Ferrofluide zeigen aufgrund des Superparamagnetismus weder Hysterese noch Remanenz auf, demzufolge weisen sie auch unter der Curie-Temperatur keine bleibende Magnetisierung auf. Die Ursache für dieses Phänomen ist die Neel-Relaxation und die Brown-Relaxation. Dabei orientieren sich nach thermischer Anregung die magnetischen Teilchen ständig ohne äußere Einflüsse. Die Zeit bis sich ein Teilchen komplett gedreht hat bezeichnet man dabei als Neel-Reaktionszeit. Dabei verhält sich eine Ansammlung dieser Teilchen makroskopisch wie ein Paramagnet, allerdings besitzt es trotzdem eine hohe magnetische Sättigung. Daher liegt die Magnetisierbarkeit superparamagnetischer Materialien zwischen der von Para- und der von Ferromagneten.\\
+		Zudem sollten Ferrofluide eine hinreichende Stabilität gegen Van-der-Waals-Kräfte aufweisen um eine Agglomeration zu verhinden. Dabei solte bei kleinen Abstände, da dort die Kräfte sehr groß werden, eine Stabilisierung der Partikeloberfläche erfolgen. Dabei kann diese Stabilisierung sterisch oder auch elektrostatisch funktionieren. Dabei wird in diesem Versuch als Dispergirhilfsmittel TMAH-Lösung verwendet. Ferrofluide selbst weisen ebenfalls Stabilität gegen magnetische Agglomeration, dabei verhindert die thermische Bewegung Kettenstrukturen und die Segregation durch Feldgradienten. \\
+		Eine weitere Eigenschaft der Ferrofluide ist die veränderbare Viskosität. Dabei können die Teilchen durch Scherstömungen in Rotation versetzt werden, dabei wird das magnetische Moment aus der Magnetfeld-Richtung gedreht und führt so zu einer höheren Viskosität durch orientierte Nanopartikel-Kettenstrukturen.
+		
+		\subsection{Bottom-Up Synthese}
+		In diesem Versuch wird die Bottom-Up Synthese angewendet, um die Nanopartikel herzustellen. Diese Synthese funktioniert wie der Name bereits sagt durch den Aufbau von den Nanoteilchen von noch kleineren Teilchen. In diesem Versuch wird dafür die chemische Reaktion von Eisen(II)- und Eisen(III)chlorid und Natronlauge zu Magnetit und Ammoniumchlorid verwendet. \\
+		2FeCl_{3} + FeCl_{2} + 8 NH_{3} + 4 H_{2}O $\rightleftharpoons$ Fe_{3}O_{4} + 8 NH_{4}Cl
+		Dabei entsteht der superparamagnetische Magnetit, der für das Ferrofluid benötigt wird und Ammoniumchlorid, welches mit seinen basischen und polaren Eigenschaften für die Oberflächenstabilisierung verwendet wird.\\ Dabei müssen die Teilchen die entstehen immer nur einen Weißschen Bezirk beinhalten, da so die Magnetische Ausrichtung besonders stark ist.
+		
+		\subsection{Verwendung von Ferrofluiden}
+		Ferrofluide finden Anwendung in verschiedensten Bereichen. Beispielsweise werden sie als Dichtungsmaterialien an rotierenden Wellen eingesetzt, indem sie von Permanentmagneten an der abzudichtenden Stelle gehalten werden und so große Drücke ertragen. Außerdem werden sie aufgrund der veränderbaren Viskosität als Dämpfungmittel oder Kühlflüssigkeit in Lautsprechern aber auch als Druck-, Neigungs- und Beschleunigungssensoren engesetzt. Auch in der Medizin finden sich Anwendungen für Ferrofluide. Beispielsweise in der Krebstherapie, wo die Ferrofluide in das Tumorgewebe eingebracht wird und durch ein magnetisches Wechselfeld Erwärmung erzielt wird und den Tumor durch Überhitzung zerstört. Dieser Prozess wird auch als Hyperthermie bezeichnet. Auch werden sie durch das Festhalten von angekoppelten Medikamenten in bestimmten Körperregionen für Drug Targeting verwendet.
+		
+	\end{document}
